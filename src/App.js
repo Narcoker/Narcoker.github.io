@@ -1,4 +1,4 @@
-import { Component } from "react";
+import { Component } from 'react';
 import { Route } from 'react-router-dom';
 import Resume from './pages/Resume';
 import PDFViewer from './pages/PDFViewer';
@@ -8,7 +8,7 @@ class App extends Component {
         return (
             <div>
                 <Route exact path="/" component={Resume} />
-                <Route exact path="/pdfviewer/:folder/:pdf" component={PDFViewer} />
+                <Route exact path="/pdfviewer/:type/:folder/:pdf" component={PDFViewer} />
             </div>
         );
     }
