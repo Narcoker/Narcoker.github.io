@@ -777,7 +777,7 @@ export const education = {
     contents: [
         {
             title: '영남대학교 졸업',
-            subtitle: '컴퓨터공학부',
+            subtitle: '컴퓨터공학부 - 학점: 3.88 전공 학점: 4.26',
             period: '2017.03 ~ 2023.02',
             link: [],
             desc: [],
