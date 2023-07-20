@@ -50,6 +50,7 @@ class Right extends Component {
                 alt="alt_image"
             />
         ));
+        if (content.videos === undefined) console.log('content', content.title);
         const pdfs = content.pdfs.map((pdf, index) => {
             const thumbnail = (
                 <img src={`${process.env.PUBLIC_URL}/${content.folder}/${pdf.thumbnail}`} alt="alt_pdf" />

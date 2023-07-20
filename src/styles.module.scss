@@ -44,6 +44,8 @@
                             list-style: none;
                             details {
                                 margin-left: -15px;
+                                color: #c70b0e;
+                                font-weight: 500;
                                 summary:hover {
                                     @include font($black, normal, 400, 1.5rem);
                                     cursor: pointer;
@@ -68,6 +70,7 @@
                     }
                 }
                 .images,
+                .videos,
                 .pdfs {
                     @include media-content-align;
                     a {

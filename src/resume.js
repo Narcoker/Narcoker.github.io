@@ -95,6 +95,7 @@ export const experience = {
         //     keywords: [],
         //     folder: '',
         //     images: [],
+        //     videos:[],
         //     pdfs: [],
         // },
 
@@ -135,6 +136,7 @@ export const experience = {
             keywords: ['우수 스터디 선발', '스터디 1위', '자료구조', '운영체제', '네트워크', '알고리즘 문제풀이'],
             folder: 'experiences/goorm-study',
             images: [],
+            videos: [],
             pdfs: [{ pdf: '1.pdf', thumbnail: '1-thumbnail.png' }],
         },
         {
@@ -163,6 +165,7 @@ export const experience = {
             ],
             folder: '',
             images: [],
+            videos: [],
             pdfs: [],
         },
         {
@@ -189,6 +192,7 @@ export const experience = {
             keywords: ['React', 'Styled-Component', 'Spring', 'SpringBoot', 'MySQL', 'Amazon AWS'],
             folder: 'experiences/RLRC',
             images: ['1.png', '2.png', '3.png', '4.gif', '5.gif', '6.gif', '7.gif', '8.gif'],
+            videos: [],
             pdfs: [],
         },
         {
@@ -221,6 +225,7 @@ export const experience = {
             keywords: ['JavaScript', 'TDD'],
             folder: '',
             images: [],
+            videos: [],
             pdfs: [],
         },
 
@@ -243,6 +248,7 @@ export const experience = {
             keywords: ['JavaScript'],
             folder: '',
             images: [],
+            videos: [],
             pdfs: [],
         },
         {
@@ -265,6 +271,7 @@ export const experience = {
             keywords: ['C언어 교육'],
             folder: '',
             images: [],
+            videos: [],
             pdfs: [],
         },
 
@@ -278,6 +285,7 @@ export const experience = {
             keywords: ['멘토링', 'C언어 교육', '포인터', '연결리스트'],
             folder: '',
             images: [],
+            videos: [],
             pdfs: [],
         },
 
@@ -291,6 +299,7 @@ export const experience = {
             keywords: ['C언어', '네트워크', '리버싱', '웹'],
             folder: '',
             images: [],
+            videos: [],
             pdfs: [],
         },
         {
@@ -302,6 +311,7 @@ export const experience = {
             keywords: ['교내 온수기 설치 완료'],
             folder: '',
             images: [],
+            videos: [],
             pdfs: [],
         },
         {
@@ -313,6 +323,7 @@ export const experience = {
             keywords: ['교내 온수기 설치 시도'],
             folder: '',
             images: [],
+            videos: [],
             pdfs: [],
         },
     ],
@@ -359,12 +370,13 @@ export const projects = {
                 },
                 {
                     main: 'Issue #1: 자식요소 onClick 실행 시 부모요소 onClick 도 같이 실행',
-                    sub: [],
+                    sub: ['velog - Issue #1 원인 조사 및 해결방안'],
                 },
             ],
             keywords: ['Self-Challenge', 'React', 'Redux', 'Redux-Toolkit', 'Styled-Component', 'localStorage'],
             folder: 'projects/todo-list',
             images: ['1.gif', '2.gif', '3.gif', '4.gif'],
+            videos: [],
             pdfs: [],
         },
 
@@ -389,11 +401,12 @@ export const projects = {
                 //     main: '구름톤 트레이닝의 OFFICE HOUR를 통해 코치와의 코드 리뷰',
                 //     sub: ['모범 코드라며 구름톤 트레이닝 커뮤니티를 통해 교육생들에게 코드 공유를 요청 받음'],
                 // },
-                { main: 'Issue #1: fisherYatesShuffle', sub: [] },
+                { main: 'Issue #1: fisherYatesShuffle', sub: ['velog - Issue #1: fisherYatesShuffle'] },
             ],
             keywords: ['HTML', 'CSS', 'JavaScript'],
             folder: 'projects/do-it-puzzle',
             images: ['1.gif', '2.gif'],
+            videos: [],
             pdfs: [],
         },
 
@@ -408,7 +421,7 @@ export const projects = {
             ],
             desc: [
                 {
-                    main: '완료된 프로젝트를 Container-Presenter 패턴으로 리팩토링',
+                    main: 'Container-Presenter 패턴으로 리팩토링',
                     sub: [],
                 },
                 { main: 'CSS 와 Styled Component을 혼용해서 쓴 것을 Styled-Component로 통일', sub: [] },
@@ -423,10 +436,14 @@ export const projects = {
                         '하나의 페이지를 담당하는 파일들의 평균 라인 수를 238.5 줄에서 평균 70줄로 감소 -> 70.65% 감소',
                     ],
                 },
+                { main: '리소스가 큰 이미지 파일을 Webp 형식으로 변환', sub: [] },
+                { main: '크로스 브라우징 해결을 위해 <picture> <source/> <img/> </picture> 구조 사용', sub: [] },
+                { main: 'LightHouse 기준, 성능 향상', sub: ['Contentful Paint 수치 8초 -> 2.2초'] },
             ],
             keywords: ['React', 'Styled-Component', 'Container-Presenter 패턴'],
             folder: '',
             images: [],
+            videos: [],
             pdfs: [],
         },
 
@@ -443,9 +460,11 @@ export const projects = {
             desc: [
                 {
                     main: '일반 가전 제품들로 구성된 자취 공간을, 최소 비용으로 IoT화하여 삶의 질을 향상시키고자 함',
-                    sub: [
-                        '삼성, LG 등 IOT 를 탑재한 가전 제품들을 이미 판매중이나 학생 신분으로 구매하기에는 가격대가 높음',
-                    ],
+                    sub: [],
+                },
+                {
+                    main: '삼성, LG 등 IOT 를 탑재한 가전 제품들을 이미 판매중이나 학생 신분으로 구매하기에는 가격대가 높음',
+                    sub: [],
                 },
                 {
                     main: '구형 가전들은 모두 적외선으로 제어되는 공통점 인식',
@@ -456,7 +475,7 @@ export const projects = {
                     sub: [],
                 },
                 {
-                    main: '시장 조사를 통해 비슷한 제품을 약 3만원에 판매 중인 것을 확인',
+                    main: '시장 조사를 통해 비슷한 제품을 약 3만원에 판매 중인 것을 확인 - 시간 절약을 위해 구매',
                     sub: [],
                 },
                 {
@@ -475,7 +494,8 @@ export const projects = {
             ],
             keywords: ['IoT', 'Arduino', '2.4ghz 적외선', 'Google Assistant'],
             folder: 'projects/IoT-switch',
-            images: ['1.png', '2.png'],
+            images: ['1.png', '2.gif'],
+            videos: [],
             pdfs: [],
         },
 
@@ -559,6 +579,7 @@ export const projects = {
             ],
             folder: 'projects/mocumocu',
             images: ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', '8.png', '9.png', '10.png'],
+            videos: [],
             pdfs: [
                 { pdf: 'Use_Case_Diagram.pdf', thumbnail: 'Use_Case_Diagram-thumbnail.png' },
                 { pdf: 'Use_Case_Specification_owner.pdf', thumbnail: 'Use_Case_Specification_owner-thumbnail.png' },
@@ -638,7 +659,8 @@ export const projects = {
                 'starUML',
             ],
             folder: 'projects/pkscl',
-            images: [],
+            images: ['1.png', '2.png', '3.png'],
+            videos: [],
             pdfs: [{ pdf: 'Use_Case_Diagram.pdf', thumbnail: 'Use_Case_Diagram-thumbnail.png' }],
         },
         {
@@ -683,6 +705,7 @@ export const projects = {
             keywords: ['Android', 'Java', 'XML', 'SQLite'],
             folder: 'projects/my-shortcut-app',
             images: ['1.gif', '2.gif', '3.gif'],
+            videos: [],
             pdfs: [{ pdf: '1.pdf', thumbnail: '1-thumbnail.png' }],
         },
     ],
@@ -700,6 +723,7 @@ export const awards = {
         //     keywords: [],
         //     folder: '',
         //     images: [],
+        //     videos:[],
         //     pdfs: [],
         // },
         {
@@ -711,6 +735,7 @@ export const awards = {
             keywords: ['알고리즘'],
             folder: 'awards/프로그래밍-경진대회',
             images: ['1.png'],
+            videos: [],
             pdfs: [],
         },
     ],
@@ -728,6 +753,7 @@ export const awards = {
 //             keywords: [],
 //             folder: '',
 //             images: [],
+//             videos:[],
 //             pdfs: [],
 //         },
 //         {
@@ -738,7 +764,9 @@ export const awards = {
 //             desc: [],
 //             keywords: [],
 //             folder: '',
+//             videos:[],
 //             images: [],
+//             videos:[],
 //             pdfs: [],
 //         },
 //     ],
@@ -756,6 +784,7 @@ export const education = {
             keywords: [],
             folder: '',
             images: [],
+            videos: [],
             pdfs: [],
         },
         {
@@ -767,6 +796,7 @@ export const education = {
             keywords: [],
             folder: '',
             images: [],
+            videos: [],
             pdfs: [],
         },
     ],
@@ -784,6 +814,7 @@ export const certificate = {
             keywords: [],
             folder: '',
             images: [],
+            videos: [],
             pdfs: [],
         },
         {
@@ -795,6 +826,7 @@ export const certificate = {
             keywords: [],
             folder: '',
             images: [],
+            videos: [],
             pdfs: [],
         },
         {
@@ -806,6 +838,7 @@ export const certificate = {
             keywords: [],
             folder: '',
             images: [],
+            videos: [],
             pdfs: [],
         },
     ],
