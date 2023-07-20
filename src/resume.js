@@ -171,7 +171,7 @@ export const experience = {
             period: '2023.01 ~ 2023.03',
             link: [
                 { text: 'Github 링크', url: 'https://github.com/lee2963/RLRC_Project' },
-                { text: 'RLRC 웹 사이트 배포 링크', url: 'http://rlrc.co.kr/' },
+                // { text: 'RLRC 웹 사이트 배포 링크', url: 'http://rlrc.co.kr/' },
             ],
             desc: [
                 { main: 'RLRC 부서의 기존 프론트엔드 개발자의 부재로 중간 투입되어 프로젝트를 완성', sub: [] },
@@ -187,8 +187,8 @@ export const experience = {
                 },
             ],
             keywords: ['React', 'Styled-Component', 'Spring', 'SpringBoot'],
-            folder: '',
-            images: [],
+            folder: 'experiences/RLRC',
+            images: ['1.png', '2.png', '3.png', '4.gif', '5.gif', '6.gif', '7.gif', '8.gif'],
             pdfs: [],
         },
         {
@@ -219,6 +219,28 @@ export const experience = {
             ],
             desc: [],
             keywords: ['JavaScript', 'TDD'],
+            folder: '',
+            images: [],
+            pdfs: [],
+        },
+
+        {
+            title: '모던 자바스크립트 딥다이브 스터디',
+            subtitle: '프론트엔드 개발자를 희망하는, 3인의 구성으로 이루어진 스터디',
+            period: '2022.09.16 ~ 2022.12.23',
+            link: [
+                {
+                    text: 'velog - 1장 ~ 24장 정리 및 발표 자료',
+                    url: 'https://zrr.kr/YGQJ',
+                },
+            ],
+            desc: [
+                { main: '본 스터디의 목적은 자바스크립트의 기본 개념 및 심화 내용을 습득하기 위함', sub: [] },
+                { main: '각자 일주일에 정해진 분량 만큼 공부한 후 온/오프라인으로 리뷰', sub: [] },
+                { main: '리뷰 당일 날, 제비뽑기를 통하여 인당 발표할 범위를 정하여 발표', sub: [] },
+                { main: '각자 개인 사정으로 1장부터 24장까지만 진행되고 마무리', sub: [] },
+            ],
+            keywords: ['JavaScript'],
             folder: '',
             images: [],
             pdfs: [],
@@ -321,12 +343,12 @@ export const projects = {
                 { text: 'Github 링크', url: 'https://github.com/Narcoker/Goorm_PBL_Todo' },
                 { text: 'Todo List 배포 링크', url: 'https://narcoker.github.io/Goorm_PBL_Todo/' },
                 { text: 'velog - 챌린지를 부여하게된 계기', url: 'https://narcoker.github.io/Goorm_PBL_Todo/' },
-                { text: 'velog - Issue #1 원인 조사 및 해결방안', url: 'https://url.kr/mkuger' },
+                { text: 'velog - Issue #1 원인 조사 및 해결방안', url: 'https://zrr.kr/kPVA' },
             ],
             desc: [
                 { main: '구름톤 트레이닝 풀스택 과정에서 내준 과제에 스스로 챌린지를 부여', sub: [] },
                 {
-                    main: '계획 내부에 세부 계획이 존재하며, 세부 계획의 설정 값에 따라 전체 계획의 설정 값이 능동적으로 변하는 Todo List',
+                    main: '계획 내 세부 계획이 존재하며, 세부 계획에 따라 전체 계획의 설정 값이 능동적으로 변하는 Severless Todo List',
                     sub: [],
                 },
                 { main: '계획의 중요성을 자각할 수 있도록 20개의 명언 자동 상하 캐러셀을 Vallina JS로 구현', sub: [] },
@@ -342,7 +364,7 @@ export const projects = {
             ],
             keywords: ['Self-Challenge', 'React', 'Redux', 'Redux-Toolkit', 'Styled-Component', 'localStorage'],
             folder: 'projects/todo-list',
-            images: ['1.gif'],
+            images: ['1.gif', '2.gif', '3.gif', '4.gif'],
             pdfs: [],
         },
 
@@ -363,10 +385,10 @@ export const projects = {
                 { main: 'Drag and Drop 이벤트를 활용한 3x3 퍼즐 게임', sub: [] },
                 { main: '다른 사람이 만든 프로젝트의 결과물만 보고 구현해본 프로젝트', sub: [] },
                 { main: '읽기 쉬운 코드를 만들어 내기 위해 오랜 시간 고민하고 리팩토링', sub: [] },
-                {
-                    main: '구름톤 트레이닝의 OFFICE HOUR를 통해 코치와의 코드 리뷰',
-                    sub: ['모범 코드라며 구름톤 트레이닝 커뮤니티를 통해 교육생들에게 코드 공유를 요청 받음'],
-                },
+                // {
+                //     main: '구름톤 트레이닝의 OFFICE HOUR를 통해 코치와의 코드 리뷰',
+                //     sub: ['모범 코드라며 구름톤 트레이닝 커뮤니티를 통해 교육생들에게 코드 공유를 요청 받음'],
+                // },
                 { main: 'Issue #1: fisherYatesShuffle', sub: [] },
             ],
             keywords: ['HTML', 'CSS', 'JavaScript'],
@@ -398,7 +420,7 @@ export const projects = {
                 {
                     main: '유지 보수성 극히 증가',
                     sub: [
-                        '하나의 페이지를 담당하는 파일들의 평균 코드량을 238.5 줄에서 평균 70줄로 감소 -> 70.65% 감소',
+                        '하나의 페이지를 담당하는 파일들의 평균 라인 수를 238.5 줄에서 평균 70줄로 감소 -> 70.65% 감소',
                     ],
                 },
             ],
@@ -420,7 +442,7 @@ export const projects = {
             ],
             desc: [
                 {
-                    main: '일반 가전 제품들로 구성된 자취 공간을, 최소 비용으로 IoT화하는 것이 목적',
+                    main: '일반 가전 제품들로 구성된 자취 공간을, 최소 비용으로 IoT화하여 삶의 질을 향상시키고자 함',
                     sub: [
                         '삼성, LG 등 IOT 를 탑재한 가전 제품들을 이미 판매중이나 학생 신분으로 구매하기에는 가격대가 높음',
                     ],
@@ -463,10 +485,10 @@ export const projects = {
             5인 팀 프로젝트 - IT 융합 프로젝트
 
 
-            프론트엔드: 2명 / 백엔드: 2명 
+            팀장, 프론트엔드 개발
 
-
-            디자이너: 1명`,
+            프론트엔드: 2명 / 백엔드: 2명 / 디자이너: 1명
+            `,
             period: '2022.03 ~ 2022.11',
             link: [
                 { text: 'Github 링크', url: 'https://github.com/oasis791/MOCUMOCU' },
@@ -476,11 +498,6 @@ export const projects = {
                 },
             ],
             desc: [
-                {
-                    main: '팀장, 프론트엔드 개발',
-                    sub: [],
-                },
-
                 { main: '소상공인들을 위한, QR 코드를 통한 쿠폰 발급/적립 및 매장 분석 애플리케이션', sub: [] },
                 {
                     main: '실물 쿠폰을 없앰으로써 환경 문제를 개선함과 동시에 소상공인들의 마케팅 비용을 조금이나마 줄이고자 함',
@@ -556,18 +573,64 @@ export const projects = {
             4인 사이드 팀 프로젝트
 
 
-            프론트엔드: 2명 / 백엔드: 2명`,
-            period: '2022.01 ~ 2022.03',
-            link: [{ text: 'Github 링크 - 프론트엔드', url: 'https://github.com/Narcoker/PKSCL_front' }],
-            desc: [{ main: '부경대학교 학과 장부 공개 및 관리 웹 사이트', sub: [] }],
-            keywords: ['React', 'Styled-Component', 'Spring', 'SpringBoot', 'MySQL'],
-            folder: '',
+            프론트엔드: 2명 / 백엔드: 2명
+
+
+            팀원, 프론트엔드 개발`,
+            period: '2022.01 ~ 2022.07',
+            link: [
+                { text: 'Github 링크 - 프론트엔드', url: 'https://github.com/Narcoker/PKSCL_front' },
+                {
+                    text: 'Gitbook - API 명세서',
+                    url: 'https://doongu.gitbook.io/pkscl/project-design/api-document',
+                },
+                {
+                    text: 'Notion - 회의록',
+                    url: 'https://doongu.notion.site/PKSCL-Home-2ec6d63bba724ee29da28323f270907f?pvs=4',
+                },
+            ],
+            desc: [
+                { main: '부경대학교 학과 장부 공개 및 관리 웹 사이트', sub: [] },
+                {
+                    main: '일반 학생 측에서는 학생회가 인스타그램을 통해 공지하고 있음에도, 이 사실을 모르는 사람들이 많아 지속적인 장부 공개 요구 발생',
+                    sub: [],
+                },
+                {
+                    main: '학생회 측에서는 인스타그램에 맞는 이미지를 매번 제작해서 올리는 번거로움이 존재해서 이를 해결하고자 함',
+                    sub: [],
+                },
+                {
+                    main: '부경대학교 총학생회를 거쳐 홍보하고 총 6개의 학과에 서비스를 유치',
+                    sub: [],
+                },
+                {
+                    main: '기여도',
+                    sub: [
+                        '프론트엔드: 50% - 분기별 장부 CRUD, 학생회장/학생 정보 변경, 로그아웃, 회원 탈퇴',
+                        'Use Case Diagram 작성: 100%',
+                        '관계형 데이터베이스 설계: 70%',
+                    ],
+                },
+                {
+                    main: 'Issue #1: 행사별로 등록한 장부의 순서 변경 기능 구현의 어려움',
+                    sub: [
+                        '하나의 데이터베이스 테이블에서 모든 학과의 장부를 관리',
+                        '해당 테이블에는 장부에는 순서를 관리하기 위한 속성이 있었는데 테이블에 추가될 때 마다 1씩 증가하게 구현',
+                        '순서 값을 수정하면 다른 학과의 순서에도 영향을 미치꺼나 중복되는 문제 발생',
+                        '데이터베이스 구조를 변경하기엔 대부분의 기능들이 구현이 완료된 상태',
+                        '순서 수정 시 해당 학과의 모든 행사 장부의 데이터베이스를 삭제하고 재등록하는 방식 채택',
+                        '2023.05.05 - 회고 : "학과 코드 + 순서" 의 값을 사용했다면 데이터베이스 오버 헤드를 줄일 수 있었을 것',
+                    ],
+                },
+            ],
+            keywords: ['React', 'React-sortablejs', 'Styled-Component', 'Spring', 'SpringBoot', 'MySQL', 'starUML'],
+            folder: 'projects/pkscl',
             images: [],
-            pdfs: [],
+            pdfs: [{ pdf: 'Use_Case_Diagram.pdf', thumbnail: 'Use_Case_Diagram-thumbnail.png' }],
         },
         {
             title: 'My Shortcut App',
-            subtitle: '개인 프로젝트 - 모바일 프로그래밍 과제',
+            subtitle: '모바일 프로그래밍 - 창의력 요구 개인 프로젝트 과제',
             period: '2021.11.07 ~ 2021.12.09',
             link: [{ text: 'Github 링크', url: 'https://github.com/Narcoker/ShortCutApp' }],
             desc: [
@@ -575,11 +638,39 @@ export const projects = {
                     main: '4개의 버튼으로 이뤄진 위젯을 홈화면에 배치하여 패턴을 입력하면 매핑된 앱이 실행되는 어플',
                     sub: [],
                 },
+                {
+                    main: '당시 시장에 존재하지 않던 애플리케이션으로 과거 LG 스마트폰의 패턴 패스워드를 벤치마킹한 아이디어',
+                    sub: [],
+                },
+                {
+                    main: '스마트폰 시장의 확장에 따라 필수 불가결의 애플리케이션이 많아짐 ',
+                    sub: [],
+                },
+                {
+                    main: '홈 화면에 바로가기를 너무 많이 배치하면 앱 서랍과 다를 게 없기 때문에 이를 개선하고자 함',
+                    sub: [],
+                },
+                {
+                    main: '확장성',
+                    sub: [
+                        '앱 서랍에서 매핑된 애플리케이션을 숨긴다면 위장 어플리케이션을 만드는 애플리케이션으로도 사용 가능',
+                        '애플리케이션 실행 뿐만아니라 전화걸기, 알람 설정 등 각종 매크로 행위도 가능하도록 확장 가능',
+                    ],
+                },
+                {
+                    main: 'Issue #1: 동작 구조',
+                    sub: [
+                        '계획은 위젯에서 바로 앱을 실행하고자 했으나 AppWidgetProvider Class는 앱 실행 기능을 가지고 있지 않았음',
+                        '1. xml 파일(UI)이 존재하지 않고 기능만 존재하는 StartApp 이라는 Class 를 생성',
+                        '2. 위젯에서 입력받은 패턴을 Intent를 사용해 StartApp 으로 전달과 동시에 StartApp 실행',
+                        '3. 패턴을 전달받은 StartApp은 SQLite에서 패턴에 매핑된 앱을 실행하고 즉시 종료',
+                    ],
+                },
             ],
-            keywords: ['Android', 'Java'],
-            folder: '',
+            keywords: ['Android', 'Java', 'XML', 'SQLite', 'starUML'],
+            folder: 'projects/my-shortcut-app',
             images: [],
-            pdfs: [],
+            pdfs: [{ pdf: '1.pdf', thumbnail: '1-thumbnail.png' }],
         },
     ],
 };
