@@ -9,7 +9,7 @@ class Container extends Component {
         const contents = this.props.contents.contents;
 
         return (
-            <div className={styles.Container} >
+            <div className={styles.Container}>
                 <Subject subject={subject}></Subject>
                 <Wrapper contents={contents}></Wrapper>
             </div>
@@ -17,4 +17,4 @@ class Container extends Component {
     }
 }
 
-export default Container
+export default Container;

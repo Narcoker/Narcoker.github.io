@@ -9,11 +9,18 @@ class Right extends Component {
         return (
             <div className={styles.Right}>
                 <div className={header.contact}>
-                    <a href={content.github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github" /></a>
-                    <a href={content.blog} target="_blank" rel="noopener noreferrer"><i className="fas fa-blog" /></a>
-                    <a href={`mailto:${content.email}`}><i className="fas fa-envelope" /></a>
+                    <a href={content.github} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-github" />
+                    </a>
+                    <a href={content.blog} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-blogger-b" />
+                    </a>
+                    <a href={`mailto:${content.email}`}>
+                        <i className="fas fa-envelope" />
+                    </a>
                 </div>
-            </div >
+                <div className={header.info}></div>
+            </div>
         );
     }
 }

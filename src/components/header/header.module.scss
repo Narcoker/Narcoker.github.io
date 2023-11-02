@@ -10,7 +10,7 @@
 }
 
 .contact {
-    display:flex;
+    display: flex;
     @include if-mobile {
         justify-content: center;
     }
@@ -52,5 +52,21 @@
             line-height: 5rem;
             font-size: 3rem;
         }
+    }
+}
+
+.info {
+    display: flex;
+    @include if-mobile {
+        justify-content: center;
+    }
+    justify-content: flex-end;
+    a {
+        position: relative;
+        display: inline-block;
+        margin-left: 1rem;
+        text-align: center;
+        color: $modal-highlight;
+        transition: color 0.3s;
     }
 }

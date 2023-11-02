@@ -54,9 +54,12 @@ export const skills = {
             desc: [
                 { name: 'React', proficiency: 65 },
                 { name: 'React Native', proficiency: 30 },
+                { name: 'Redux', proficiency: 65 },
+                { name: 'Recoil', proficiency: 65 },
                 { name: 'Styled-Component', proficiency: 55 },
                 { name: 'HTML', proficiency: 70 },
                 { name: 'CSS', proficiency: 70 },
+                { name: 'TypeScript', proficiency: 30 },
                 { name: 'JavaScript', proficiency: 80 },
             ],
         },
@@ -75,6 +78,8 @@ export const skills = {
             desc: [
                 { name: 'Python', proficiency: 50 },
                 { name: 'JAVA', proficiency: 30 },
+                { name: 'Git', proficiency: 30 },
+                { name: 'Jira', proficiency: 30 },
             ],
         },
     ],
@@ -100,9 +105,33 @@ export const experience = {
         // },
 
         {
+            title: '구름톤 챌린지',
+            subtitle:
+                '4주 동안 매일 제한 시간안에 1문제씩 꾸준히 풀고, 우수 참여자 50명은 본선에서 오프라인 팀 챌린지 진행',
+            period: '2023.08.14 ~ 2023.09.23',
+            link: [
+                {
+                    text: 'velog - 구름톤 챌린지',
+                    url: 'https://velog.io/@narcoker/series/%EA%B5%AC%EB%A6%84%ED%86%A4-%EC%B1%8C%EB%A6%B0%EC%A7%80',
+                },
+            ],
+            desc: [
+                { main: '매일 스스로 정한 시간에 문제를 풀고 문제 풀이를 velog에 작성', sub: [] },
+                {
+                    main: '참여자 972명 중 우수 참여자로 선발',
+                    sub: ['React 오프라인 팀 챌린지 해커톤 진행', '기획사인 구름에서 이동욱 CTO님의 세미나 제공'],
+                },
+            ],
+            keywords: ['우수 참여자 선발', '알고리즘 문제 풀이', '오프라인 팀 챌린지 - React 해커톤'],
+            folder: 'experiences/',
+            images: [],
+            videos: [],
+            pdfs: [],
+        },
+        {
             title: '구름톤 트레이닝 풀스택 1기 - 옹기종기 스터디',
-            subtitle: '구름톤 트레이닝 풀스택 과정에서 진행한 Computer Science, 알고리즘 문제 풀이 스터디',
-            period: '2023.05.24 ~ ',
+            subtitle: '구름톤 트레이닝 풀스택 과정에서 진행한 Computer Science, 알고리즘 문제 풀이, 프로젝트 스터디',
+            period: '2023.05.24 ~ 2023.09.06',
             link: [
                 {
                     text: 'velog - 자료구조 정리',
@@ -117,32 +146,71 @@ export const experience = {
                     url: 'https://velog.io/@narcoker/series/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC',
                 },
                 {
+                    text: 'velog - 데이터베이스 정리',
+                    url: 'https://velog.io/@narcoker/series/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4',
+                },
+                {
+                    text: 'velog - 디자인 패턴 정리',
+                    url: 'https://velog.io/@narcoker/series/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4',
+                },
+                {
                     text: 'velog - 알고리즘 문제 풀이',
                     url: 'https://velog.io/@narcoker/series/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8',
                 },
+                {
+                    text: 'velog - 1차 스터디 회고',
+                    url: 'https://velog.io/@narcoker/%EA%B5%AC%EB%A6%84%ED%86%A4-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8B%9D-%ED%92%80%EC%8A%A4%ED%83%9D-1%EA%B8%B0-6%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0-%EC%B2%AB%EB%B2%88%EC%A7%B8-%EC%84%B1%EA%B3%BC-1%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-1%EC%9C%84-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%B2%A0%EC%8A%A4%ED%8A%B8-%ED%8C%80%EC%9B%90%EC%83%81',
+                },
+                {
+                    text: 'velog - 2차 스터디 회고',
+                    url: 'https://velog.io/@narcoker/%EA%B5%AC%EB%A6%84%ED%86%A4-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8B%9D-%ED%92%80%EC%8A%A4%ED%83%9D-1%EA%B8%B0-16%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0-2%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-2%EC%9C%84-Web-IDE-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%8B%9C%EC%9E%91',
+                },
             ],
             desc: [
-                { main: '팀장, 발표자', sub: [] },
+                { main: '스터디 팀장을 맡아 스터디가 올바른 방향으로 나아갈 수 있도록 선도', sub: [] },
                 {
-                    main: '1차 스터디',
+                    main: '1차 스터디 - 우수 스터디 선발 - 16개의 스터디 그룹 중 1위',
                     sub: [
-                        '우수 스터디 선발 - 16개의 스터디 그룹 중 1위',
-                        '산출물 1 : 공부한 지식을 모아 각자 CS 문서 생성',
+                        '산출물 1 : 공부한 지식을 모아 각자 CS 문서 생성 - 자료구조, 운영체제, 네트워크',
                         '산출물 2 : 모든 문제의 풀이 시간을 측정해서 성장 과정 기록',
                     ],
                 },
-                { main: '2차 스터디', sub: [] },
+                {
+                    main: '2차 스터디 - 우수 스터디 선발 - 13개 스터디 그룹 중 2위',
+                    sub: [
+                        '1차 스터디 이후 많은 팀 가입 신청으로 팀원 2배 증가, 3명 -> 6명',
+                        '산출물 1: 공부한 지식을 모아 각자 CS 문서 생성 - 데이터베이스, 디자인 패턴',
+                        '산출물 2: 모든 문제의 풀이 시간을 측정해서 그래프로 성장 과정 도식화',
+                        '산출물 3: Instagram 클론 코딩 - 팀 프로젝트',
+                        '2차 스터디 이후 팀원 증가, 6명 -> 8명',
+                    ],
+                },
             ],
-            keywords: ['우수 스터디 선발', '스터디 1위', '자료구조', '운영체제', '네트워크', '알고리즘 문제풀이'],
+            keywords: [
+                '우수 스터디 선발',
+                '스터디 1위',
+                '스터디 2위',
+                '자료구조',
+                '운영체제',
+                '네트워크',
+                '데이터베이스',
+                '디자인 패턴',
+                '알고리즘 문제풀이',
+                '프로젝트',
+            ],
             folder: 'experiences/goorm-study',
             images: [],
             videos: [],
-            pdfs: [{ pdf: '1.pdf', thumbnail: '1-thumbnail.png' }],
+            pdfs: [
+                { pdf: '1.pdf', thumbnail: '1-thumbnail.png' },
+                { pdf: '2.pdf', thumbnail: '2-thumbnail.png' },
+            ],
         },
+
         {
             title: '구름톤 트레이닝 풀스택 1기',
             subtitle: '구름 x 카카오 x 인프런에서 주최하는 6개월 과정의 풀스택 자율형 부트캠프',
-            period: '2023.05.23 ~ ',
+            period: '2023.05.23 ~ 2023.11.28 - 진행중',
             link: [
                 {
                     text: 'velog - 주차별 회고록',
@@ -170,7 +238,7 @@ export const experience = {
         },
         {
             title: '영남대학교 RLRC(지역혁신연구선도센터) 프리랜서 근무',
-            subtitle: 'RLRC 웹 사이트 제작 프로젝트 중간 투입',
+            subtitle: 'RLRC 소개 웹 사이트 제작 프로젝트',
             period: '2023.01 ~ 2023.03',
             link: [
                 { text: 'Github 링크', url: 'https://github.com/lee2963/RLRC_Project' },
@@ -178,9 +246,13 @@ export const experience = {
             ],
             desc: [
                 { main: 'RLRC 부서의 기존 프론트엔드 개발자의 부재로 중간 투입되어 프로젝트를 완성', sub: [] },
-                { main: '기존 개발자가 만든 모든 정적 페이지를 반응형 페이지로 변경 - 모바일 제외', sub: [] },
-                { main: '메인 페이지 스크롤 애니메이션 개발 - Scroll Snap 사용', sub: [] },
-                { main: '랜딩페이지, 지도/논문/특허 페이지 개발 - 카카오맵 API 사용', sub: [] },
+                {
+                    main: '기여도',
+                    sub: [
+                        '메인 페이지 스크롤 애니메이션 개발 - Scroll Snap 사용',
+                        '랜딩페이지, 지도/논문/특허 페이지 개발 - 카카오맵 API 사용',
+                    ],
+                },
                 {
                     main: '클라이언트와 개발자의 커뮤니케이션 문제',
                     sub: [
@@ -292,7 +364,7 @@ export const experience = {
         {
             title: '@Xpert - C언어, 네트워크, 리버싱, 웹 교육 수강',
             subtitle:
-                '교내 학과 학술 동아리 @Xpert에 준회원으로 가입하여 정회원이 되기 위한 신입생 대상 여름 방학 교육 수료',
+                '교내 학과 학술 동아리 @Xpert에 준회원으로 가입하여, 정회원 전환 필수 요건인 준회원 대상 여름 방학 교육 수료',
             period: '2017.07 ~ 2017.08',
             link: [],
             desc: [],
@@ -347,8 +419,226 @@ export const projects = {
         //     ],
         // },
         {
+            title: '근근근',
+            subtitle: `
+            8인 팀 프로젝트 - 구름톤 트레이닝 풀스택
+
+            팀장, 프론트엔드 개발
+
+            프론트엔드: 4명 / 백엔드: 4명 
+            `,
+            period: '2023.10.11 ~ 2023.11.28 - 진행중',
+            link: [{ text: 'Github 링크 - Frontend', url: 'https://github.com/Goorm-OGJG/Da-It-Gym-FE' }],
+            desc: [
+                {
+                    main: '무자격 헬스 트레이너 문제를 해결하고, PT의 가격 부담을 줄여주기 위한 운동일지/루틴 추천 및 커뮤니티',
+                    sub: [],
+                },
+                {
+                    main: '헬스장에 체육지도자가 1~2명만 있으면 나머지 트레이너들은 별다른 자격이 불필요',
+                    sub: [],
+                },
+                {
+                    main: '유저의 현재 신체 요건에 맞춘, 다른 사람의 루틴과 운동일지를 추천해주는 기능을 제공하고자 함 ',
+                    sub: [],
+                },
+                {
+                    main: '서비스 내부에서 자격증 및 신체 정보를 통해 트레이너를 검증하여 유저 간에 신뢰성 보장하고자 함',
+                    sub: [],
+                },
+            ],
+            keywords: [
+                '카카오 크램폴린',
+                '카카오 API',
+                'Vite',
+                'React',
+                'Recoil',
+                'TypeScript',
+                'Styled-Component',
+                'StompJS',
+                'Spring',
+                'Spring Boot',
+                'MySQL',
+                'Amazon AWS',
+                'Amazon S3',
+            ],
+            folder: 'projects/',
+            images: [],
+            videos: [],
+            pdfs: [],
+        },
+
+        {
+            title: '실시간 동시 편집이 가능한 Web IDE',
+            subtitle: `
+            7인 팀 프로젝트 - 구름톤 트레이닝 풀스택
+
+            팀장, 프론트엔드 개발, 발표자
+
+            프론트엔드: 4명 / 백엔드: 3명 
+            `,
+            period: '2023.08.28 ~ 2023.10.10',
+            link: [
+                { text: 'Github 링크', url: 'https://github.com/Goorm-OGJG/Web-IDE' },
+                { text: 'Youtube - 전체 기능 시연 영상', url: 'https://www.youtube.com/watch?v=JsfWMSpEHZI' },
+                {
+                    text: 'velog - 결과물 발표 및 평가 회고',
+                    url: 'https://velog.io/@narcoker/%EA%B5%AC%EB%A6%84%ED%86%A4-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8B%9D-%ED%92%80%EC%8A%A4%ED%83%9D-1%EA%B8%B0-20%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EB%8F%99%EC%8B%9C-%ED%8E%B8%EC%A7%91%EC%9D%B4-%EA%B0%80%EB%8A%A5%ED%95%9C-Web-IDE-%EA%B5%AC%ED%98%84-%EC%99%84%EB%A3%8C',
+                },
+            ],
+            desc: [
+                {
+                    main: '구름톤 트레이닝 풀스택 과정에서 내준 팀 과제',
+                    sub: [],
+                },
+                {
+                    main: '차별성 있고 경쟁력 있는 Web IDE를 만들어내고자 팀 내부에서 자발적으로 기능 추가 구현',
+                    sub: [
+                        '주어진 요구 사항: 컴파일 기능이 없고, 로그인 기능과 채팅 기능이 있는 반응형 Web IDE',
+                        '추가 구현: CRDT 기술을 활용한 실시간 동시 편집 기능, 음성 채팅',
+                    ],
+                },
+                {
+                    main: '기여도',
+                    sub: [
+                        '코드 편집 페이지 UI 및 기능',
+                        'Yorkie 라이브러리를 사용하여 실시간 동시 편집 기능 구현',
+                        'rc-tree 라이브러리를 사용하여 코드 편집 페이지 사이드 바의 파일 트리 구현',
+                        'Drag and Drop을 통한 사이드 바 넓이 수정 기능 구현',
+                        '파일 확장자에 따른 아이콘 생성 기능 구현',
+                        '파일 트리에서 마우스 우클릭 시 나오는 Context Menu UI를 통한 폴더/파일 CRUD 구현',
+                        '탭 구현 - 폴더/파일 CRUD 및 파일 트리 내부의 파일 클릭 시, 탭 생성/탭 삭제/활성화 탭 변경 기능 구현',
+                        '단축키를 통한 사용자 편의 기능 구현 - 코드 자동 완성, 코드 검색 및 변경, Zoom-in/out',
+                    ],
+                },
+                {
+                    main: '결과물 발표 평가에서 9개의 팀 중 1위 달성',
+                    sub: ['기획력: 18/20 | 기술성: 26/30 | 완성도: 29/30 | 발표 19/20'],
+                },
+            ],
+            keywords: [
+                'Self-Chellange',
+                'Vite',
+                'React',
+                'Recoil',
+                'TypeScript',
+                'Styled-Component',
+                'Yorkie-CRDT',
+                'CodeMirror',
+                'rc-tree',
+                'StompJS',
+                'connective-web-sdk',
+                'Spring',
+                'Spring Boot',
+                'MySQL',
+                'Amazon AWS',
+                'Amazon S3',
+            ],
+            folder: 'projects/web-ide',
+            images: ['1.png', '2.gif', '3.gif', '4.gif', '5.gif', '6.gif', '7.gif', '8.png', '9.png', '10.png'],
+            videos: [],
+            pdfs: [],
+        },
+
+        {
+            title: 'Instgram 클론 코딩',
+            subtitle: `
+            6인 팀 프로젝트 - 구름톤 트레이닝 풀스택
+
+            팀장, 프론트엔드 개발
+
+            프론트엔드: 3명 / 백엔드: 3명 
+            `,
+            period: '2023.08.01 ~ 2023.08.27',
+            link: [
+                { text: 'Github 링크 - Frontend', url: 'https://github.com/Goorm-OGJG/PBL-Instagram-FE' },
+                {
+                    text: 'velog - Issue #1 원인 조사 및 해결방안',
+                    url: 'https://velog.io/@narcoker/Spring-%ED%97%A4%EB%8D%94%EC%97%90-%EC%BF%A0%ED%82%A4%EB%A5%BC-%EB%84%A3%EC%97%88%EB%8A%94%EB%8D%B0-%EC%95%88%EB%B3%B4%EB%82%B4%EC%A7%80%EB%8A%94-%ED%98%84%EC%83%81',
+                },
+            ],
+            desc: [
+                {
+                    main: '구름톤 트레이닝 풀스택 과정에서 내준 선택적 팀 과제로, 13개 팀 중 실제 서비스와 가장 유사하게 구현',
+                    sub: [],
+                },
+                {
+                    main: '49개의 API 를 구축하여, 13개 팀 중 실제 서비스와 가장 유사하게 구현',
+                    sub: [],
+                },
+                {
+                    main: '프론트엔드 협업 - Boiler Plate 구축',
+                    sub: [
+                        '공통으로 사용할 이미지, 폰트 스타일, 컬러 팔레트를 각각 한 파일에 상수화해서 사전 정의',
+                        '공통으로 사용할 아이콘을 한 파일에 컴포넌트로 미리 구현 후 협업 시 사용',
+                        '구현될 페이지들을 미리 정의하고 페이지 라우팅을 미리 구현',
+                    ],
+                },
+                {
+                    main: '기여도',
+                    sub: [
+                        '팀장으로서, 팀원의 역량을 사전 과제 역량 회고 발표를 통해 파악하고 역할 분배',
+                        'Refresh Token/Access Token을 사용한 로그인, 회원가입, 비밀번호 찾기 구현',
+                        'HOC 를 사용해서 페이지 접근 권한을 제어, 로그인이 안되어있을 경우 로그인 페이지로 강제 리다이렉트 구현',
+                        '백엔드 팀원의 코로나 이슈로 인한 백엔드 버그 직접 해결 - Issue #1',
+                    ],
+                },
+                {
+                    main: 'Issue #1: Spring에서 Refresh Token을 쿠키에 담아서 보냈는데 응답에 쿠키가 없는 버그',
+                    sub: [
+                        'Cookie 클래스를 ResponseCookie로 변경 후 SameSite 정책 변경',
+                        'Domain 과 Path가 지정되어 있지 않는 문제를 발견하고 직접 수정',
+                    ],
+                },
+            ],
+            keywords: [
+                'Vite',
+                'React',
+                'Recoil',
+                'TypeScript',
+                'Styled-Component',
+                'Spring',
+                'Spring Boot',
+                'MySQL',
+                'Amazon AWS',
+                'Amazon S3',
+            ],
+            folder: 'projects/instagram-clone',
+            images: ['1.gif', '2.gif', '3.gif', '4.gif', '5.gif', '6.png', '8.png', '9.png'],
+            videos: [],
+            pdfs: [],
+        },
+
+        {
+            title: 'Youtube 클론 코딩',
+            subtitle: `개인 프로젝트 - 구름톤 트레이닝 풀스택`,
+            period: '2023.07.17 ~ 2023.07.30',
+            link: [{ text: 'Github 링크', url: 'https://github.com/Narcoker/Goorm_PBL_Youtube' }],
+            desc: [
+                { main: '구름톤 트레이닝 풀스택 과정에서 내준 과제에 스스로 챌린지를 부여', sub: [] },
+                {
+                    main: '주어진 과제는 퍼블리싱이었으나 Node.js와 MongoDB를 사용해서 기능 구현',
+                    sub: [
+                        '회원가입, 로그인, 업로드된 전체 비디오 보기, 구독한 유저들의 비디오 보기',
+                        '비디오 업로드, 구독하기, 좋아요/싫어요, 댓글, 무한 Depth 대댓글',
+                        '조회수 증가, 링크 복사, 동영상 분류 필터링',
+                    ],
+                },
+                { main: '무한 Depth 대댓글', sub: ['재귀적인 컴포넌트 구조로 기능 구현'] },
+                {
+                    main: '조회수 증가',
+                    sub: ['유튜브 실제 방식을 벤치마킹, 재생시간 5초 초과시 조회수가 1 증가 되도록 적용 '],
+                },
+            ],
+            keywords: ['Self-Challenge', 'React', 'Node.js', 'MongoDB', 'Styled-Component'],
+            folder: 'projects/youtube-clone',
+            images: ['1.gif', '2.gif'],
+            videos: [],
+            pdfs: [],
+        },
+        {
             title: 'Todo List',
-            subtitle: `개인 사이드 프로젝트`,
+            subtitle: `개인 프로젝트 - 구름톤 트레이닝 풀스택`,
             period: '2023.07.10 ~ 2023.07.16',
             link: [
                 { text: 'Github 링크', url: 'https://github.com/Narcoker/Goorm_PBL_Todo' },
@@ -431,14 +721,12 @@ export const projects = {
                 },
                 { main: '중복 코드를 map을 사용하여 코드량 감소', sub: [] },
                 {
-                    main: '유지 보수성 극히 증가',
-                    sub: [
-                        '하나의 페이지를 담당하는 파일들의 평균 라인 수를 238.5 줄에서 평균 70줄로 감소 -> 70.65% 감소',
-                    ],
+                    main: '유지 보수성 극히 증가 - 파일 당 코드 70.6% 감소',
+                    sub: ['하나의 페이지를 담당하는 파일들의 평균 라인 수를 238.5 줄에서 평균 70줄로 감소'],
                 },
                 { main: '리소스가 큰 이미지 파일을 Webp 형식으로 변환', sub: [] },
                 { main: '크로스 브라우징 해결을 위해 <picture> <source/> <img/> </picture> 구조 사용', sub: [] },
-                { main: 'LightHouse 기준, 성능 향상', sub: ['Contentful Paint 수치 8초 -> 2.2초'] },
+                { main: 'LightHouse 기준, 성능 70.25% 향상', sub: ['Contentful Paint 수치 8초 -> 2.2초'] },
             ],
             keywords: ['React', 'Styled-Component', 'Container-Presenter 패턴'],
             folder: '',
@@ -625,10 +913,6 @@ export const projects = {
                     sub: [],
                 },
                 {
-                    main: '부경대학교 총학생회를 거쳐 홍보하고 총 6개의 학과에 서비스를 유치',
-                    sub: [],
-                },
-                {
                     main: '기여도',
                     sub: [
                         '프론트엔드: 50% - 분기별 장부 CRUD, 학생회장/학생 정보 변경, 로그아웃, 회원 탈퇴',
@@ -646,6 +930,10 @@ export const projects = {
                         '순서 수정 시 해당 학과의 모든 행사 장부의 데이터베이스를 삭제하고 재등록하는 방식 채택',
                         '2023.05.05 - 회고 : "학과 코드 + 순서" 의 값을 사용했다면 데이터베이스 오버 헤드를 줄일 수 있었을 것',
                     ],
+                },
+                {
+                    main: '서비스 배포',
+                    sub: ['부경대학교 총학생회를 거쳐 홍보하고 총 6개의 학과에 서비스를 유치'],
                 },
             ],
             keywords: [
@@ -693,9 +981,9 @@ export const projects = {
                     ],
                 },
                 {
-                    main: 'Issue #1: 동작 구조',
+                    main: '구현 방법',
                     sub: [
-                        '계획은 위젯에서 바로 앱을 실행하고자 했으나 AppWidgetProvider Class는 앱 실행 기능을 가지고 있지 않았음',
+                        '위젯에서 바로 앱을 실행하고자 했으나 위젯 클래스인 AppWidgetProvider Class는 앱 실행 기능이 없었음',
                         '1. xml 파일(UI)이 존재하지 않고 기능만 존재하는 StartApp 이라는 Class 를 생성',
                         '2. 위젯에서 입력받은 패턴을 Intent를 사용해 StartApp 으로 전달과 동시에 StartApp 실행',
                         '3. 패턴을 전달받은 StartApp은 SQLite에서 패턴에 매핑된 앱을 실행하고 즉시 종료',
@@ -706,7 +994,8 @@ export const projects = {
             folder: 'projects/my-shortcut-app',
             images: ['1.gif', '2.gif', '3.gif'],
             videos: [],
-            pdfs: [{ pdf: '1.pdf', thumbnail: '1-thumbnail.png' }],
+            pdfs: [],
+            // pdfs: [{ pdf: '1.pdf', thumbnail: '1-thumbnail.png' }],
         },
     ],
 };
@@ -844,6 +1133,6 @@ export const certificate = {
     ],
 };
 
-export const footer = { updated: '2023. 07. 19.' };
+export const footer = { updated: '2023. 11. 02.' };
 
 export const main = [experience, projects, awards, education, certificate];

@@ -32,7 +32,7 @@ class Right extends Component {
                 );
                 return (
                     <li key={index} className={styles.foldable}>
-                        <details>
+                        <details open>
                             <summary>{desc.main}</summary>
                             {subs}
                         </details>
