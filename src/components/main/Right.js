@@ -88,7 +88,7 @@ class Right extends Component {
                         <span className={styles.icon}>🌐 </span>
                         <a
                             className={styles.link}
-                            href={`https://narcoker.github.io/#${content.title}`}
+                            href={`https://narcoker.github.io`}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
