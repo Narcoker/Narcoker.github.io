@@ -10,6 +10,7 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -42,7 +43,8 @@ b {
     @include font($white, normal, 300, 1vw);
 }
 
-p, li {
+p,
+li {
     @include font($black, normal, 300, 1.5rem);
 }
 

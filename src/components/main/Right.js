@@ -70,7 +70,7 @@ class Right extends Component {
         });
 
         return (
-            <div className={styles.Right}>
+            <div className={styles.Right} id={content.title}>
                 <h4>{content.title}</h4>
                 {content.subtitle.split('\n\n').map((line, index) => (
                     <h5 key={index}>
@@ -83,6 +83,14 @@ class Right extends Component {
                 </div>
                 <div className={styles.keywords}>{keywords}</div>
                 <div className={styles.images}>{images}</div>
+                {content.images.length > 0 && (
+                    <>
+                        <span className={styles.icon}>🌐 </span>
+                        <a className={styles.link} href={`#${content.title}`} target="_blank" rel="noopener noreferrer">
+                            PDF로 보고 계신 경우, 위 이미지는 배포된 사이트에서 클릭하시면 확대할 수 있습니다.
+                        </a>
+                    </>
+                )}
                 <div className={styles.pdfs}>{pdfs}</div>
                 {this.state.hasModal && (
                     <Modal

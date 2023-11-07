@@ -25,7 +25,15 @@
                 }
                 padding-right: 5%;
                 .block {
-                    display: block;
+                    text-decoration: underline;
+                    color: rgb(47, 47, 147);
+                    &:hover {
+                        color: #c70b0e;
+                    }
+                    .icon {
+                        display: inline;
+                        text-decoration: none;
+                    }
                 }
             }
             .Right {
@@ -92,6 +100,19 @@
                             transform: scale(1.05);
                         }
                     }
+                }
+            }
+            .link {
+                text-decoration: underline;
+                color: rgb(47, 47, 147);
+                font-size: 12px;
+                font-weight: 600;
+                &:hover {
+                    color: #c70b0e;
+                }
+                .icon {
+                    display: inline;
+                    text-decoration: none;
                 }
             }
         }
