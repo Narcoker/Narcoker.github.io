@@ -10,7 +10,7 @@ export const intro = {
     subject: 'Introduce',
     profile: 'profile.jpeg',
     intro: `
-    안녕하세요. 열정, 끈기, 집념의 프론트엔드 개발자 김준서 입니다.
+    안녕하세요. 프론트엔드 개발자 김준서 입니다.
 
 
 
@@ -23,14 +23,7 @@ export const intro = {
 
     사용자에게 유익한 정보를 제공해 줄 수 있는 서비스를 만드는 프로젝트의 리더"가 되는 것입니다.
 
-
-
-
-    지금은 프론트엔드 공부에 집중하고 있으며, 백엔드의 동작 구조를 이해하기 위해 Java 및 Spring 공부도 조금씩 하고 있습니다.
-    또한 먼 미래이지만, 데이터 분석에 접근할 때를 대비해서 알고리즘 문제풀이는 Python으로 진행하고 있습니다.
-
-        
-
+    
 
     요즘은 좋은 팀워크를 만들어내기 위해 어떻게 해야할지 고민 중입니다.
     
@@ -317,51 +310,51 @@ export const experience = {
             pdfs: [],
         },
 
-        {
-            title: '모던 자바스크립트 딥다이브 스터디',
-            subtitle: '프론트엔드 개발자를 희망하는, 3인의 구성으로 이루어진 스터디',
-            period: '2022.09.16 ~ 2022.12.23',
-            link: [
-                {
-                    text: 'velog - 1장 ~ 24장 정리 및 발표 자료',
-                    url: 'https://zrr.kr/YGQJ',
-                },
-            ],
-            desc: [
-                { main: '본 스터디의 목적은 자바스크립트의 기본 개념 및 심화 내용을 습득하기 위함', sub: [] },
-                { main: '각자 일주일에 정해진 분량 만큼 공부한 후 온/오프라인으로 리뷰', sub: [] },
-                { main: '리뷰 당일 날, 제비뽑기를 통하여 인당 발표할 범위를 정하여 발표', sub: [] },
-                { main: '각자 개인 사정으로 1장부터 24장까지만 진행되고 마무리', sub: [] },
-            ],
-            keywords: ['JavaScript'],
-            folder: '',
-            images: [],
-            videos: [],
-            pdfs: [],
-        },
-        {
-            title: '육군 28사단 80연대 병장 만기 전역',
-            subtitle: 'C4I 전문 특기병으로 입대하여 이중화 서버/체계 시스템 유지보수 및 관리 ',
-            period: '2019.02 ~ 2020.09',
-            link: [],
-            desc: [
-                {
-                    main: '4박 5일 연대장 포상 휴가 수여',
-                    sub: [
-                        '직위: 전산분대 분대장',
-                        '전군 Window 운영체제 전환 프로젝트 시 내려받은 방대한 전환 프로세스 자료를 간소화하여 분대원 교육',
-                        '분대원 수행 속도 증가로 인해 본부 및 예하부대 중 가장 먼저 임무 완료',
-                        '예하 부대에 분대 수행 능력이 소문이 나 여러 파견 요청을 받음',
-                        '한 달동안 매주 주말에 파견을 나가 예하 부대 지원',
-                    ],
-                },
-            ],
-            keywords: ['C언어 교육'],
-            folder: '',
-            images: [],
-            videos: [],
-            pdfs: [],
-        },
+        // {
+        //     title: '모던 자바스크립트 딥다이브 스터디',
+        //     subtitle: '프론트엔드 개발자를 희망하는, 3인의 구성으로 이루어진 스터디',
+        //     period: '2022.09.16 ~ 2022.12.23',
+        //     link: [
+        //         {
+        //             text: 'velog - 1장 ~ 24장 정리 및 발표 자료',
+        //             url: 'https://zrr.kr/YGQJ',
+        //         },
+        //     ],
+        //     desc: [
+        //         { main: '본 스터디의 목적은 자바스크립트의 기본 개념 및 심화 내용을 습득하기 위함', sub: [] },
+        //         { main: '각자 일주일에 정해진 분량 만큼 공부한 후 온/오프라인으로 리뷰', sub: [] },
+        //         { main: '리뷰 당일 날, 제비뽑기를 통하여 인당 발표할 범위를 정하여 발표', sub: [] },
+        //         { main: '각자 개인 사정으로 1장부터 24장까지만 진행되고 마무리', sub: [] },
+        //     ],
+        //     keywords: ['JavaScript'],
+        //     folder: '',
+        //     images: [],
+        //     videos: [],
+        //     pdfs: [],
+        // },
+        // {
+        //     title: '육군 28사단 80연대 병장 만기 전역',
+        //     subtitle: 'C4I 전문 특기병으로 입대하여 이중화 서버/체계 시스템 유지보수 및 관리 ',
+        //     period: '2019.02 ~ 2020.09',
+        //     link: [],
+        //     desc: [
+        //         {
+        //             main: '4박 5일 연대장 포상 휴가 수여',
+        //             sub: [
+        //                 '직위: 전산분대 분대장',
+        //                 '전군 Window 운영체제 전환 프로젝트 시 내려받은 방대한 전환 프로세스 자료를 간소화하여 분대원 교육',
+        //                 '분대원 수행 속도 증가로 인해 본부 및 예하부대 중 가장 먼저 임무 완료',
+        //                 '예하 부대에 분대 수행 능력이 소문이 나 여러 파견 요청을 받음',
+        //                 '한 달동안 매주 주말에 파견을 나가 예하 부대 지원',
+        //             ],
+        //         },
+        //     ],
+        //     keywords: ['C언어 교육'],
+        //     folder: '',
+        //     images: [],
+        //     videos: [],
+        //     pdfs: [],
+        // },
 
         {
             title: '@Xpert - C언어 교육',
@@ -392,11 +385,13 @@ export const experience = {
         },
         {
             title: '창원경상고등학교 전교 학생 회장',
-            subtitle: '학교 학생회 측에서 40년 간 실패한, 교내 온수기 설치 완료',
+            // subtitle: '학교 학생회 측에서 40년 간 실패한, 교내 온수기 설치 완료',
+            subtitle: '',
             period: '2015.11 ~ 2016.11',
             link: [],
             desc: [],
-            keywords: ['교내 온수기 설치 완료'],
+            // keywords: ['교내 온수기 설치 완료'],
+            keywords: [],
             folder: '',
             images: [],
             videos: [],
@@ -404,11 +399,13 @@ export const experience = {
         },
         {
             title: '창원경상고등학교 전교 학생 부회장',
-            subtitle: '교내 온수기 설치 시도를 위한 출마',
+            // subtitle: '교내 온수기 설치 시도를 위한 출마',
+            subtitle: '',
             period: '2014.11 ~ 2015.11',
             link: [],
             desc: [],
-            keywords: ['교내 온수기 설치 시도'],
+            // keywords: ['교내 온수기 설치 시도'],
+            keywords: [],
             folder: '',
             images: [],
             videos: [],
@@ -434,55 +431,6 @@ export const projects = {
         //         { pdf: '1.pdf', thumbnail: '2-thumbnail.png' },
         //     ],
         // },
-        {
-            title: '근근근 - 운동일지/루틴 추천 및 커뮤니티',
-            subtitle: `
-            8인 팀 프로젝트 - 구름톤 트레이닝 풀스택
-
-            팀장, 프론트엔드 개발
-
-            프론트엔드: 4명 / 백엔드: 4명 
-            `,
-            period: '2023.10.11 ~ 2023.11.28 - 진행중',
-            link: [{ text: 'Github 링크 - Frontend', url: 'https://github.com/Goorm-OGJG/Da-It-Gym-FE' }],
-            desc: [
-                {
-                    main: '무자격 헬스 트레이너 문제를 해결하고, PT의 가격 부담을 줄여주기 위함',
-                    sub: [],
-                },
-                {
-                    main: '헬스장에 체육지도자가 1~2명만 있으면 나머지 트레이너들은 별다른 자격이 불필요',
-                    sub: [],
-                },
-                {
-                    main: '유저의 현재 신체 요건에 맞춘, 다른 사람의 루틴과 운동일지를 추천해주는 기능을 제공하고자 함 ',
-                    sub: [],
-                },
-                {
-                    main: '서비스 내부에서 자격증 및 신체 정보를 통해 트레이너를 검증하여 유저 간에 신뢰성 보장하고자 함',
-                    sub: [],
-                },
-            ],
-            keywords: [
-                '카카오 크램폴린',
-                '카카오 API',
-                'Vite',
-                'React',
-                'Recoil',
-                'TypeScript',
-                'Styled-Component',
-                'StompJS',
-                'Spring',
-                'Spring Boot',
-                'MySQL',
-                'Amazon AWS',
-                'Amazon S3',
-            ],
-            folder: 'projects/',
-            images: [],
-            videos: [],
-            pdfs: [],
-        },
 
         {
             title: 'OGJG IDE - 실시간 동시 편집이 가능한 Web IDE',
@@ -552,249 +500,6 @@ export const projects = {
             ],
             folder: 'projects/web-ide',
             images: ['1.png', '2.gif', '3.gif', '4.gif', '5.gif', '6.gif', '7.gif', '8.png', '9.png', '10.png'],
-            videos: [],
-            pdfs: [],
-        },
-
-        {
-            title: 'Instgram 클론 코딩',
-            subtitle: `
-            6인 팀 프로젝트 - 구름톤 트레이닝 풀스택
-
-            팀장, 프론트엔드 개발
-
-            프론트엔드: 3명 / 백엔드: 3명 
-            `,
-            period: '2023.08.01 ~ 2023.08.27',
-            link: [
-                { text: 'Github 링크 - Frontend', url: 'https://github.com/Goorm-OGJG/PBL-Instagram-FE' },
-                {
-                    text: 'velog - Issue #1 원인 조사 및 해결방안',
-                    url: 'https://velog.io/@narcoker/Spring-%ED%97%A4%EB%8D%94%EC%97%90-%EC%BF%A0%ED%82%A4%EB%A5%BC-%EB%84%A3%EC%97%88%EB%8A%94%EB%8D%B0-%EC%95%88%EB%B3%B4%EB%82%B4%EC%A7%80%EB%8A%94-%ED%98%84%EC%83%81',
-                },
-            ],
-            desc: [
-                {
-                    main: '구름톤 트레이닝 풀스택 과정의 팀 과제로, 13개 팀 중 실제 서비스와 가장 유사하게 구현',
-                    sub: [],
-                },
-                {
-                    main: '프론트엔드 협업 - Boiler Plate 구축',
-                    sub: [
-                        '공통으로 사용할 이미지, 폰트 스타일, 컬러 팔레트를 각각 한 파일에 상수화해서 사전 정의',
-                        '공통으로 사용할 아이콘을 한 파일에 컴포넌트로 미리 구현 후 협업 시 사용',
-                        '구현될 페이지들을 미리 정의하고 페이지 라우팅을 미리 구현',
-                    ],
-                },
-                {
-                    main: '기여도',
-                    sub: [
-                        'Refresh Token/Access Token을 사용한 로그인, 회원가입, 비밀번호 찾기 구현',
-                        '추상화와 가독성을 위해 HOC 를 사용해서 로그인 유무에 따른 페이지 접근 권한을 제어',
-                        '백엔드 팀원의 코로나 이슈로 인한 백엔드 버그 직접 해결 - Issue #1',
-                    ],
-                },
-                {
-                    main: 'Issue #1: Spring에서 Refresh Token을 쿠키에 담아서 보냈는데 응답에 쿠키가 없는 버그',
-                    sub: [
-                        'Cookie 클래스를 ResponseCookie로 변경 후 SameSite 정책 변경',
-                        'Domain 과 Path가 지정되어 있지 않는 문제를 발견하고 직접 수정',
-                    ],
-                },
-            ],
-            keywords: [
-                'Vite',
-                'React',
-                'Recoil',
-                'TypeScript',
-                'Styled-Component',
-                'Spring',
-                'Spring Boot',
-                'MySQL',
-                'Amazon AWS',
-                'Amazon S3',
-            ],
-            folder: 'projects/instagram-clone',
-            images: ['1.gif', '2.gif', '3.gif', '4.gif', '5.gif', '6.png', '8.png', '9.png'],
-            videos: [],
-            pdfs: [],
-        },
-
-        {
-            title: 'Youtube 클론 코딩',
-            subtitle: `개인 프로젝트 - 구름톤 트레이닝 풀스택`,
-            period: '2023.07.17 ~ 2023.07.30',
-            link: [{ text: 'Github 링크', url: 'https://github.com/Narcoker/Goorm_PBL_Youtube' }],
-            desc: [
-                {
-                    main: '구름톤 트레이닝 풀스택 과정에서 내준 과제에 스스로 챌린지를 부여',
-                    sub: [
-                        '주어진 과제는 퍼블리싱이었으나 Node.js와 MongoDB를 사용해서 기능 구현',
-                        '회원가입, 로그인, 업로드된 전체 비디오 보기, 구독한 유저들의 비디오 보기',
-                        '비디오 업로드, 구독하기, 좋아요/싫어요, 댓글, 무한 Depth 대댓글',
-                        '조회수 증가, 링크 복사, 동영상 분류 필터링',
-                    ],
-                },
-                { main: '무한 Depth 대댓글', sub: ['재귀적인 컴포넌트 구조로 기능 구현'] },
-                {
-                    main: '조회수 증가',
-                    sub: ['유튜브 실제 방식을 벤치마킹, 재생시간 5초 초과시 조회수가 1 증가하게 구현 '],
-                },
-            ],
-            keywords: ['Self-Challenge', 'React', 'Node.js', 'MongoDB', 'Styled-Component'],
-            folder: 'projects/youtube-clone',
-            images: ['1.gif', '2.gif'],
-            videos: [],
-            pdfs: [],
-        },
-        {
-            title: 'Todo List',
-            subtitle: `개인 프로젝트 - 구름톤 트레이닝 풀스택`,
-            period: '2023.07.10 ~ 2023.07.16',
-            link: [
-                { text: 'Github 링크', url: 'https://github.com/Narcoker/Goorm_PBL_Todo' },
-                { text: 'Todo List 배포 링크', url: 'https://narcoker.github.io/Goorm_PBL_Todo/' },
-                { text: 'velog - 챌린지를 부여하게된 계기', url: 'https://narcoker.github.io/Goorm_PBL_Todo/' },
-                { text: 'velog - Issue #1 원인 조사 및 해결방안', url: 'https://zrr.kr/kPVA' },
-            ],
-            desc: [
-                {
-                    main: '구름톤 트레이닝 풀스택 과정에서 내준 과제에 스스로 챌린지를 부여',
-                    sub: [
-                        '계획 내 세부 계획이 존재하도록 재설계',
-                        '세부 계획들의 진행 여부에 따라 전체 계획의 진행 여부가 능동적으로 변하도록 재설계',
-                    ],
-                },
-                { main: '계획의 중요성을 자각할 수 있도록 20개의 명언 자동 상하 캐러셀을 Vallina JS로 구현', sub: [] },
-                { main: '생성한 계획/세부 계획과 시작일, 종료일, 상태를 유지할 수 있도록 localStorage 사용', sub: [] },
-                {
-                    main: 'Props Drilling을 방지하기 위해 Redux와 Redux-Toolkit 상태 관리 라이브러리 사용',
-                    sub: [],
-                },
-                {
-                    main: 'Issue #1: 자식요소 onClick 실행 시 부모요소 onClick 도 같이 실행',
-                    sub: ['velog - Issue #1 원인 조사 및 해결방안'],
-                },
-            ],
-            keywords: ['Self-Challenge', 'React', 'Redux', 'Redux-Toolkit', 'Styled-Component', 'localStorage'],
-            folder: 'projects/todo-list',
-            images: ['1.gif', '2.gif', '3.gif', '4.gif'],
-            videos: [],
-            pdfs: [],
-        },
-
-        {
-            title: 'Do it, Puzzle',
-            subtitle: `개인 사이드 프로젝트`,
-            period: '2023.06.26 ~ 2023.06.28',
-            link: [
-                { text: 'Github 링크', url: 'https://github.com/Narcoker/PuzzleGame-with-VanillaJS' },
-                { text: 'Do it, Puzzle 배포 링크', url: 'https://narcoker.github.io/PuzzleGame-with-VanillaJS/' },
-                {
-                    text: 'velog - Issue #1: fisherYatesShuffle',
-                    url: 'https://velog.io/@narcoker/JavaScript-fisherYatesShuffle',
-                },
-            ],
-            desc: [
-                { main: 'Vanilla JS로 구현한 간단한 3X3 퍼즐 맞추기 게임', sub: [] },
-                { main: '읽기 쉬운 코드를 만들어 내기 위해 오랜 시간 고민하고 리팩토링', sub: [] },
-                // {
-                //     main: '구름톤 트레이닝의 OFFICE HOUR를 통해 코치와의 코드 리뷰',
-                //     sub: ['모범 코드라며 구름톤 트레이닝 커뮤니티를 통해 교육생들에게 코드 공유를 요청 받음'],
-                // },
-                { main: 'Issue #1: fisherYatesShuffle', sub: ['velog - Issue #1: fisherYatesShuffle'] },
-            ],
-            keywords: ['HTML', 'CSS', 'JavaScript'],
-            folder: 'projects/do-it-puzzle',
-            images: ['1.gif', '2.gif'],
-            videos: [],
-            pdfs: [],
-        },
-
-        {
-            title: 'RLRC 웹 사이트 제작 프로젝트 리팩토링 - 진행중',
-            subtitle: '개인 사이드 프로젝트',
-            period: '2023.03 ~',
-
-            link: [
-                { text: 'Github 링크', url: 'https://github.com/lee2963/RLRC_Project' },
-                { text: 'RLRC 웹 사이트 배포 링크', url: 'http://rlrc.co.kr/' },
-            ],
-            desc: [
-                {
-                    main: '유지 보수성 극히 증가 - 파일 당 코드 70.6% 감소',
-                    sub: [
-                        '하나의 페이지를 담당하는 파일들의 평균 라인 수를 238.5 줄에서 평균 70줄로 감소',
-                        '1. 중복 코드를 map을 사용하여 코드량 감소',
-                        '2. Container-Presenter 패턴으로 리팩토링',
-                        '3. CSS 와 Styled Component을 혼용해서 쓴 것을 Styled-Component로 통일',
-                        '4. 하나의 페이지 구성이 JS, CSS 조합인 일반적인 구조를 Container & Presenter 패턴으로 변경',
-                    ],
-                },
-                {
-                    main: 'LightHouse 기준, 성능 70.25% 향상',
-                    sub: [
-                        'Contentful Paint 수치 8초 -> 2.2초',
-                        '1. 리소스가 큰 이미지 파일을 Webp 형식으로 변환',
-                        '2. 크로스 브라우징 해결을 위해 <picture> <source/> <img/> </picture> 구조 사용',
-                    ],
-                },
-            ],
-            keywords: ['React', 'Styled-Component', 'Container-Presenter 패턴'],
-            folder: '',
-            images: [],
-            videos: [],
-            pdfs: [],
-        },
-
-        {
-            title: '자취 공간 유비쿼터스 프로젝트 및 IoT 스위치 제작',
-            subtitle: '일상 생활 개선 개인 사이드 프로젝트',
-            period: '2022.07.12 ~ 2022.07.19',
-            link: [
-                {
-                    text: 'velog - IoT 스위치 코드 및 회고록',
-                    url: 'https://velog.io/@narcoker/series/HobbyIT',
-                },
-            ],
-            desc: [
-                {
-                    main: '일반 가전 제품들로 구성된 자취 공간을, 최소 비용으로 IoT화하여 삶의 질을 향상시키고자 함',
-                    sub: [],
-                },
-                // {
-                //     main: '삼성, LG 등 IOT 를 탑재한 가전 제품들을 이미 판매중이나 학생 신분으로 구매하기에는 가격대가 높음',
-                //     sub: [],
-                // },
-                // {
-                //     main: '구형 가전들은 모두 적외선으로 제어되는 공통점 인식',
-                //     sub: [],
-                // },
-                // {
-                //     main: '음성 인식 AI로 적외선 송신을 요청할 수 있는 장비 아이디어 기획',
-                //     sub: [],
-                // },
-                // {
-                //     main: '시장 조사를 통해 비슷한 제품을 약 3만원에 판매 중인 것을 확인 - 시간 절약을 위해 구매',
-                //     sub: [],
-                // },
-                // {
-                //     main: '비용적으로 구매하기 부담스러운 기기인 IoT 스위치를 배운 내용을 활용하여 직접 제작',
-                //     sub: [],
-                // },
-                {
-                    main: '96%의 비용 절감',
-                    sub: [
-                        '[ IoT 제품 구매 시 발생 비용 ]',
-                        '125만원 = 70만원(에어컨) + 30만원(TV) + 15만원(선풍기) + 5만원(무드등) + 5만원(스위치)',
-                        '[ 목적 실현 비용 ]',
-                        '5만원 = 2.8만원(리모컨 허브) + 1만원(IoT 스위치 제작비용) + 1.2만원(스마트 플러그)',
-                    ],
-                },
-            ],
-            keywords: ['IoT', 'Arduino', '2.4ghz 적외선', 'Google Assistant'],
-            folder: 'projects/IoT-switch',
-            images: ['1.png', '2.gif'],
             videos: [],
             pdfs: [],
         },
@@ -906,6 +611,7 @@ export const projects = {
                 { pdf: 'DSD.pdf', thumbnail: 'DSD-thumbnail.png' },
             ],
         },
+
         {
             title: 'PKSCL - 부경대학교 학과 장부 공개 및 관리 웹 사이트',
             subtitle: `
@@ -976,6 +682,311 @@ export const projects = {
             videos: [],
             pdfs: [{ pdf: 'Use_Case_Diagram.pdf', thumbnail: 'Use_Case_Diagram-thumbnail.png' }],
         },
+
+        {
+            title: '영남대학교 RLRC 웹 사이트',
+            subtitle: '영남대학교 지역혁신연구선도센터 웹사이트 제작 외주',
+            period: '2023.01 ~ 2023.03',
+
+            link: [
+                { text: 'Github 링크', url: 'https://github.com/lee2963/RLRC_Project' },
+                { text: 'RLRC 웹 사이트 배포 링크', url: 'http://rlrc.co.kr/' },
+            ],
+            desc: [
+                {
+                    main: '리팩토링 - 파일 당 코드 70.6% 감소',
+                    sub: [
+                        '하나의 페이지를 담당하는 파일들의 평균 라인 수를 238.5 줄에서 평균 70줄로 감소',
+                        '1. 중복 코드를 map을 사용하여 코드량 감소',
+                        '2. Container-Presenter 패턴으로 리팩토링',
+                        '3. CSS 와 Styled Component을 혼용해서 쓴 것을 Styled-Component로 통일',
+                        '4. 하나의 페이지 구성이 JS, CSS 조합인 일반적인 구조를 Container & Presenter 패턴으로 변경',
+                    ],
+                },
+                {
+                    main: 'LightHouse 기준, 성능 70.25% 향상',
+                    sub: [
+                        'Contentful Paint 수치 8초 -> 2.2초',
+                        '1. 리소스가 큰 이미지 파일을 Webp 형식으로 변환',
+                        '2. 크로스 브라우징 해결을 위해 <picture> <source/> <img/> </picture> 구조 사용',
+                    ],
+                },
+            ],
+            keywords: ['React', 'Styled-Component', 'Container-Presenter 패턴'],
+            folder: '',
+            images: [],
+            videos: [],
+            pdfs: [],
+        },
+
+
+        {
+            title: '근근근 - 운동일지/루틴 추천 및 커뮤니티',
+            subtitle: `
+            8인 팀 프로젝트 - 구름톤 트레이닝 풀스택
+
+            팀장, 프론트엔드 개발
+
+            프론트엔드: 4명 / 백엔드: 4명 
+            `,
+            period: '2023.10.11 ~ 2023.11.28 - 진행중',
+            link: [{ text: 'Github 링크 - Frontend', url: 'https://github.com/Goorm-OGJG/Da-It-Gym-FE' }],
+            desc: [
+                {
+                    main: '무자격 헬스 트레이너 문제를 해결하고, PT의 가격 부담을 줄여주기 위함',
+                    sub: [],
+                },
+                {
+                    main: '헬스장에 체육지도자가 1~2명만 있으면 나머지 트레이너들은 별다른 자격이 불필요',
+                    sub: [],
+                },
+                {
+                    main: '유저의 현재 신체 요건에 맞춘, 다른 사람의 루틴과 운동일지를 추천해주는 기능을 제공하고자 함 ',
+                    sub: [],
+                },
+                {
+                    main: '서비스 내부에서 자격증 및 신체 정보를 통해 트레이너를 검증하여 유저 간에 신뢰성 보장하고자 함',
+                    sub: [],
+                },
+            ],
+            keywords: [
+                '카카오 크램폴린',
+                '카카오 API',
+                'Vite',
+                'React',
+                'Recoil',
+                'TypeScript',
+                'Styled-Component',
+                'StompJS',
+                'Spring',
+                'Spring Boot',
+                'MySQL',
+                'Amazon AWS',
+                'Amazon S3',
+            ],
+            folder: 'projects/',
+            images: [],
+            videos: [],
+            pdfs: [],
+        },
+
+
+
+
+        // {
+        //     title: 'Instgram 클론 코딩',
+        //     subtitle: `
+        //     6인 팀 프로젝트 - 구름톤 트레이닝 풀스택
+
+        //     팀장, 프론트엔드 개발
+
+        //     프론트엔드: 3명 / 백엔드: 3명 
+        //     `,
+        //     period: '2023.08.01 ~ 2023.08.27',
+        //     link: [
+        //         { text: 'Github 링크 - Frontend', url: 'https://github.com/Goorm-OGJG/PBL-Instagram-FE' },
+        //         {
+        //             text: 'velog - Issue #1 원인 조사 및 해결방안',
+        //             url: 'https://velog.io/@narcoker/Spring-%ED%97%A4%EB%8D%94%EC%97%90-%EC%BF%A0%ED%82%A4%EB%A5%BC-%EB%84%A3%EC%97%88%EB%8A%94%EB%8D%B0-%EC%95%88%EB%B3%B4%EB%82%B4%EC%A7%80%EB%8A%94-%ED%98%84%EC%83%81',
+        //         },
+        //     ],
+        //     desc: [
+        //         {
+        //             main: '구름톤 트레이닝 풀스택 과정의 팀 과제로, 13개 팀 중 실제 서비스와 가장 유사하게 구현',
+        //             sub: [],
+        //         },
+        //         {
+        //             main: '프론트엔드 협업 - Boiler Plate 구축',
+        //             sub: [
+        //                 '공통으로 사용할 이미지, 폰트 스타일, 컬러 팔레트를 각각 한 파일에 상수화해서 사전 정의',
+        //                 '공통으로 사용할 아이콘을 한 파일에 컴포넌트로 미리 구현 후 협업 시 사용',
+        //                 '구현될 페이지들을 미리 정의하고 페이지 라우팅을 미리 구현',
+        //             ],
+        //         },
+        //         {
+        //             main: '기여도',
+        //             sub: [
+        //                 'Refresh Token/Access Token을 사용한 로그인, 회원가입, 비밀번호 찾기 구현',
+        //                 '추상화와 가독성을 위해 HOC 를 사용해서 로그인 유무에 따른 페이지 접근 권한을 제어',
+        //                 '백엔드 팀원의 코로나 이슈로 인한 백엔드 버그 직접 해결 - Issue #1',
+        //             ],
+        //         },
+        //         {
+        //             main: 'Issue #1: Spring에서 Refresh Token을 쿠키에 담아서 보냈는데 응답에 쿠키가 없는 버그',
+        //             sub: [
+        //                 'Cookie 클래스를 ResponseCookie로 변경 후 SameSite 정책 변경',
+        //                 'Domain 과 Path가 지정되어 있지 않는 문제를 발견하고 직접 수정',
+        //             ],
+        //         },
+        //     ],
+        //     keywords: [
+        //         'Vite',
+        //         'React',
+        //         'Recoil',
+        //         'TypeScript',
+        //         'Styled-Component',
+        //         'Spring',
+        //         'Spring Boot',
+        //         'MySQL',
+        //         'Amazon AWS',
+        //         'Amazon S3',
+        //     ],
+        //     folder: 'projects/instagram-clone',
+        //     images: ['1.gif', '2.gif', '3.gif', '4.gif', '5.gif', '6.png', '8.png', '9.png'],
+        //     videos: [],
+        //     pdfs: [],
+        // },
+
+        // {
+        //     title: 'Youtube 클론 코딩',
+        //     subtitle: `개인 프로젝트 - 구름톤 트레이닝 풀스택`,
+        //     period: '2023.07.17 ~ 2023.07.30',
+        //     link: [{ text: 'Github 링크', url: 'https://github.com/Narcoker/Goorm_PBL_Youtube' }],
+        //     desc: [
+        //         {
+        //             main: '구름톤 트레이닝 풀스택 과정에서 내준 과제에 스스로 챌린지를 부여',
+        //             sub: [
+        //                 '주어진 과제는 퍼블리싱이었으나 Node.js와 MongoDB를 사용해서 기능 구현',
+        //                 '회원가입, 로그인, 업로드된 전체 비디오 보기, 구독한 유저들의 비디오 보기',
+        //                 '비디오 업로드, 구독하기, 좋아요/싫어요, 댓글, 무한 Depth 대댓글',
+        //                 '조회수 증가, 링크 복사, 동영상 분류 필터링',
+        //             ],
+        //         },
+        //         { main: '무한 Depth 대댓글', sub: ['재귀적인 컴포넌트 구조로 기능 구현'] },
+        //         {
+        //             main: '조회수 증가',
+        //             sub: ['유튜브 실제 방식을 벤치마킹, 재생시간 5초 초과시 조회수가 1 증가하게 구현 '],
+        //         },
+        //     ],
+        //     keywords: ['Self-Challenge', 'React', 'Node.js', 'MongoDB', 'Styled-Component'],
+        //     folder: 'projects/youtube-clone',
+        //     images: ['1.gif', '2.gif'],
+        //     videos: [],
+        //     pdfs: [],
+        // },
+
+
+
+
+        {
+            title: 'Todo List',
+            subtitle: `개인 프로젝트 - 구름톤 트레이닝 풀스택`,
+            period: '2023.07.10 ~ 2023.07.16',
+            link: [
+                { text: 'Github 링크', url: 'https://github.com/Narcoker/Goorm_PBL_Todo' },
+                { text: 'Todo List 배포 링크', url: 'https://narcoker.github.io/Goorm_PBL_Todo/' },
+                { text: 'velog - 챌린지를 부여하게된 계기', url: 'https://narcoker.github.io/Goorm_PBL_Todo/' },
+                { text: 'velog - Issue #1 원인 조사 및 해결방안', url: 'https://zrr.kr/kPVA' },
+            ],
+            desc: [
+                {
+                    main: '구름톤 트레이닝 풀스택 과정에서 내준 과제에 스스로 챌린지를 부여',
+                    sub: [
+                        '계획 내 세부 계획이 존재하도록 재설계',
+                        '세부 계획들의 진행 여부에 따라 전체 계획의 진행 여부가 능동적으로 변하도록 재설계',
+                    ],
+                },
+                { main: '계획의 중요성을 자각할 수 있도록 20개의 명언 자동 상하 캐러셀을 Vallina JS로 구현', sub: [] },
+                { main: '생성한 계획/세부 계획과 시작일, 종료일, 상태를 유지할 수 있도록 localStorage 사용', sub: [] },
+                {
+                    main: 'Props Drilling을 방지하기 위해 Redux와 Redux-Toolkit 상태 관리 라이브러리 사용',
+                    sub: [],
+                },
+                {
+                    main: 'Issue #1: 자식요소 onClick 실행 시 부모요소 onClick 도 같이 실행',
+                    sub: ['velog - Issue #1 원인 조사 및 해결방안'],
+                },
+            ],
+            keywords: ['Self-Challenge', 'React', 'Redux', 'Redux-Toolkit', 'Styled-Component', 'localStorage'],
+            folder: 'projects/todo-list',
+            images: ['1.gif', '2.gif', '3.gif', '4.gif'],
+            videos: [],
+            pdfs: [],
+        },
+
+        // {
+        //     title: 'Do it, Puzzle',
+        //     subtitle: `개인 사이드 프로젝트`,
+        //     period: '2023.06.26 ~ 2023.06.28',
+        //     link: [
+        //         { text: 'Github 링크', url: 'https://github.com/Narcoker/PuzzleGame-with-VanillaJS' },
+        //         { text: 'Do it, Puzzle 배포 링크', url: 'https://narcoker.github.io/PuzzleGame-with-VanillaJS/' },
+        //         {
+        //             text: 'velog - Issue #1: fisherYatesShuffle',
+        //             url: 'https://velog.io/@narcoker/JavaScript-fisherYatesShuffle',
+        //         },
+        //     ],
+        //     desc: [
+        //         { main: 'Vanilla JS로 구현한 간단한 3X3 퍼즐 맞추기 게임', sub: [] },
+        //         { main: '읽기 쉬운 코드를 만들어 내기 위해 오랜 시간 고민하고 리팩토링', sub: [] },
+        //         // {
+        //         //     main: '구름톤 트레이닝의 OFFICE HOUR를 통해 코치와의 코드 리뷰',
+        //         //     sub: ['모범 코드라며 구름톤 트레이닝 커뮤니티를 통해 교육생들에게 코드 공유를 요청 받음'],
+        //         // },
+        //         { main: 'Issue #1: fisherYatesShuffle', sub: ['velog - Issue #1: fisherYatesShuffle'] },
+        //     ],
+        //     keywords: ['HTML', 'CSS', 'JavaScript'],
+        //     folder: 'projects/do-it-puzzle',
+        //     images: ['1.gif', '2.gif'],
+        //     videos: [],
+        //     pdfs: [],
+        // },
+
+
+
+        {
+            title: '자취 공간 유비쿼터스 프로젝트 및 IoT 스위치 제작',
+            subtitle: '일상 생활 개선 개인 사이드 프로젝트',
+            period: '2022.07.12 ~ 2022.07.19',
+            link: [
+                {
+                    text: 'velog - IoT 스위치 코드 및 회고록',
+                    url: 'https://velog.io/@narcoker/series/HobbyIT',
+                },
+            ],
+            desc: [
+                {
+                    main: '일반 가전 제품들로 구성된 자취 공간을, 최소 비용으로 IoT화하여 삶의 질을 향상시키고자 함',
+                    sub: [],
+                },
+                // {
+                //     main: '삼성, LG 등 IOT 를 탑재한 가전 제품들을 이미 판매중이나 학생 신분으로 구매하기에는 가격대가 높음',
+                //     sub: [],
+                // },
+                // {
+                //     main: '구형 가전들은 모두 적외선으로 제어되는 공통점 인식',
+                //     sub: [],
+                // },
+                // {
+                //     main: '음성 인식 AI로 적외선 송신을 요청할 수 있는 장비 아이디어 기획',
+                //     sub: [],
+                // },
+                // {
+                //     main: '시장 조사를 통해 비슷한 제품을 약 3만원에 판매 중인 것을 확인 - 시간 절약을 위해 구매',
+                //     sub: [],
+                // },
+                // {
+                //     main: '비용적으로 구매하기 부담스러운 기기인 IoT 스위치를 배운 내용을 활용하여 직접 제작',
+                //     sub: [],
+                // },
+                {
+                    main: '96%의 비용 절감',
+                    sub: [
+                        '[ IoT 제품 구매 시 발생 비용 ]',
+                        '125만원 = 70만원(에어컨) + 30만원(TV) + 15만원(선풍기) + 5만원(무드등) + 5만원(스위치)',
+                        '[ 목적 실현 비용 ]',
+                        '5만원 = 2.8만원(리모컨 허브) + 1만원(IoT 스위치 제작비용) + 1.2만원(스마트 플러그)',
+                    ],
+                },
+            ],
+            keywords: ['IoT', 'Arduino', '2.4ghz 적외선', 'Google Assistant'],
+            folder: 'projects/IoT-switch',
+            images: ['1.png', '2.gif'],
+            videos: [],
+            pdfs: [],
+        },
+
+
         {
             title: 'My Shortcut App - 빠른 어플 실행을 위한 유틸리티 앱',
             subtitle: '모바일 프로그래밍 - 창의력 요구 개인 프로젝트 과제',
@@ -1143,21 +1154,21 @@ export const certificate = {
             videos: [],
             pdfs: [],
         },
-        {
-            title: '한자실력급수 2급',
-            subtitle: '한자교육진흥회: 064-20-00054',
-            period: '2013.04.13',
-            link: [],
-            desc: [],
-            keywords: [],
-            folder: '',
-            images: [],
-            videos: [],
-            pdfs: [],
-        },
+        // {
+        //     title: '한자실력급수 2급',
+        //     subtitle: '한자교육진흥회: 064-20-00054',
+        //     period: '2013.04.13',
+        //     link: [],
+        //     desc: [],
+        //     keywords: [],
+        //     folder: '',
+        //     images: [],
+        //     videos: [],
+        //     pdfs: [],
+        // },
     ],
 };
 
-export const footer = { updated: '2023. 11. 02.' };
+export const footer = { updated: '2024. 01. 11.' };
 
-export const main = [experience, projects, awards, education, certificate];
+export const main = [projects, experience, awards, education, certificate];
